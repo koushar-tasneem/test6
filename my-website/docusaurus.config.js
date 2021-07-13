@@ -54,6 +54,24 @@ module.exports = {
             }
           ],
         },
+        footer: {
+          links: [
+            {
+              title: 'Docs',
+              items: [
+                {
+                  label: 'Style Guide',
+                  to: 'docs/',
+                },
+              ],
+            },
+            {
+              title: 'Community',
+              items: [
+              ],
+            },
+          ],
+        },
         gtag: {
             trackingID: "G-WT3D2HSL72",
             anonymizeIP: false, // Should IPs be anonymized?
