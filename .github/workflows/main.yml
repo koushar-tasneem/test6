@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'my-website/**'
   pull_request:
     branches:
       - main
+    paths-ignore:
+      - 'my-website/**'
 
 jobs:
   linux-main-checks:
