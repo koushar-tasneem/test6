@@ -26,12 +26,6 @@ module.exports = {
                 position: "left",
             },
             {
-              to: "docs/contributing",
-              // activeBasePath: "docs",
-              label: "Contribute",
-              position: "left",
-          },
-            {
               type: 'docsVersionDropdown',
             },
 
