@@ -485,12 +485,6 @@ export interface FrameAddStyleTagOptions {
  * `Frame` object lifecycles are controlled by three events that are all
  * dispatched on the page object:
  *
- * - {@link PageEmittedEvents.FrameAttached}
- *
- * - {@link PageEmittedEvents.FrameNavigated}
- *
- * - {@link PageEmittedEvents.FrameDetached}
- *
  * @Example
  * An example of dumping frame tree:
  *

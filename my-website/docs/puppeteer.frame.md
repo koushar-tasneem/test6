@@ -16,12 +16,6 @@ export declare class Frame
 
 `Frame` object lifecycles are controlled by three events that are all dispatched on the page object:
 
-- [PageEmittedEvents.FrameAttached](./puppeteer.pageemittedevents.frameattached.md)
-
-- [PageEmittedEvents.FrameNavigated](./puppeteer.pageemittedevents.framenavigated.md)
-
-- [PageEmittedEvents.FrameDetached](./puppeteer.pageemittedevents.framedetached.md)
-
 The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `Frame` class.
 
 ## Example 1

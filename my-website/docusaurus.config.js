@@ -1,14 +1,14 @@
 module.exports = {
     title: "Introduction to Puppeteer",
     tagline: "Puppeteer made it easy",
-    url: "https://realtime-apps-iap.github.io",
-    baseUrl: "/",
+    url: "https://tasneemkoushar.github.io",
+    baseUrl: "/test6/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
 
-    organizationName: "Chromium",
-    projectName: "realtime-apps-iap.github.io",
+    organizationName: "tasneemkoushar",
+    projectName: "test6",
     themeConfig: {
         hideableSidebar: true,
         navbar: {
@@ -52,6 +52,53 @@ module.exports = {
               href: "https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md",
               position: "right"
             }
+          ],
+        },
+        footer: {
+          links: [
+            {
+              // Label of the section of these links
+              title: 'Docs',
+              items: [
+                {
+                  // Label of the link
+                  label: 'Style Guide',
+                  // Client-side routing, used for navigating within the website.
+                  // The baseUrl will be automatically prepended to this value.
+                  to: 'docs/',
+                },
+                // {
+                //   label: 'Second Doc',
+                //   to: 'docs/doc2/',
+                // },
+              ],
+            },
+            {
+              title: 'Community',
+              items: [
+                // {
+                //   label: 'Stack Overflow',
+                //   // A full-page navigation, used for navigating outside of the website.
+                //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                // },
+                // {
+                //   label: 'Discord',
+                //   href: 'https://discordapp.com/invite/docusaurus',
+                // },
+                // {
+                //   label: 'Twitter',
+                //   href: 'https://twitter.com/docusaurus',
+                // },
+                // {
+                //   //Renders the html pass-through instead of a simple link
+                //   html: `
+                //       <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+                //         <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+                //       </a>
+                //     `,
+                // },
+              ],
+            },
           ],
         },
         gtag: {
