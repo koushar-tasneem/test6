@@ -38,7 +38,7 @@ module.exports = {
 
 
             {
-                label: "Gitt",
+                label: "Gittt",
                 href: "https://github.com/puppeteer/puppeteer",
                 position: "right",
             },
