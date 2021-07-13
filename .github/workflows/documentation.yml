@@ -1,5 +1,5 @@
 name: documentation
-
+working-directory: ./my-website
 on:
   pull_request:
     branches: [main]
