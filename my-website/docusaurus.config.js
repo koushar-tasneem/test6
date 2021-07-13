@@ -1,14 +1,14 @@
 module.exports = {
     title: "Introduction to Puppeteer",
     tagline: "Puppeteer made it easy",
-    url: "https://realtime-apps-iap.github.io",
-    baseUrl: "/",
+    url: "https://tasneemkoushar.github.io",
+    baseUrl: "/test6/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
 
-    organizationName: "Chromium",
-    projectName: "realtime-apps-iap.github.io",
+    organizationName: "tasneemkoushar",
+    projectName: "test6",
     themeConfig: {
         hideableSidebar: true,
         navbar: {
