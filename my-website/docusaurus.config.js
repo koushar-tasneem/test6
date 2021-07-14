@@ -3,7 +3,7 @@ module.exports = {
     tagline: "Puppeteer made it easy",
     url: "https://tasneemkoushar.github.io",
     baseUrl: "/test6/",
-    onBrokenLinks: "throw",
+    onBrokenLinks: "ignore",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
 
