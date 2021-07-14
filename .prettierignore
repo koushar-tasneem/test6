@@ -2,6 +2,7 @@ node_modules/
 lib/
 third_party/
 vendor/
+my-website/
 
 package-lock.json
 yarn.lock
